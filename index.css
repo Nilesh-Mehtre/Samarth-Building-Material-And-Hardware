@@ -7,6 +7,41 @@ body{
     justify-content: center;
     align-items: center;
   } */
+  .right {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    color: white;
+    padding: 25px 75px;
+    font-size: large;
+    font-weight: bold;
+  }
+  .right .nav-bar{
+      display: flex;
+      gap: 3rem;
+      justify-content: center;
+      align-items: center;
+  }
+  .right .logo{
+      height: 75px;
+      width: 75px;
+  }
+  
+  .right nav a {
+    text-decoration: none;
+    color: rgb(253, 253, 255);
+    transition: all 0.5s;
+  }
+  .right nav a:hover {
+    color: rgb(157, 162, 206);
+  }
+
+
+
+
+
+
+
   .navbar{
     display: flex;
     gap: 2rem;
